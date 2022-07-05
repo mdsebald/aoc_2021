@@ -131,6 +131,8 @@ defmodule Day04 do
 
   Figure out which board will win last. Once it wins, what would its final
   score be?
+
+  Your puzzle answer was 9020.
   """
 
   def calc_last_winning_score() do
