@@ -173,7 +173,7 @@ defmodule Day04 do
 
   # Common functions
 
-  defp get_bingo_game(input_file \\ "inputs/day04_input.txt") do
+  defp get_bingo_game(input_file \\ "inputs/day04.txt") do
     [raw_moves | raw_rows] =
       File.read!(input_file)
       |> String.split("\n", trim: true)

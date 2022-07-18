@@ -286,7 +286,7 @@ defmodule Day03 do
 
   # Common functions
 
-  def get_diag_report(input_file \\ "inputs/day03_input.txt") do
+  defp get_diag_report(input_file \\ "inputs/day03.txt") do
     File.read!(input_file)
     |> String.split()
     |> Enum.map(fn bin_num_str -> to_charlist(bin_num_str) end)

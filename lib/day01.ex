@@ -160,7 +160,7 @@ defmodule Day01 do
 
   # Common functions
   defp get_depth_list() do
-    File.read!("inputs/day01_input.txt")
+    File.read!("inputs/day01.txt")
     |> String.split()
     |> Enum.map(&String.to_integer/1)
   end

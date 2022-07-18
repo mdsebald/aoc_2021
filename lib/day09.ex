@@ -133,7 +133,7 @@ defmodule Day09 do
 
   # Common functions
 
-  defp get_heightmap(input_file \\ "inputs/day09_input.txt") do
+  defp get_heightmap(input_file \\ "inputs/day09.txt") do
     File.read!(input_file)
     |> String.split("\n")
     |> Enum.map(&String.to_charlist/1)

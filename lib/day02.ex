@@ -113,7 +113,7 @@ defmodule Day02 do
 
   # Common functions
   defp get_directions() do
-    File.read!("inputs/day02_input.txt")
+    File.read!("inputs/day02.txt")
     |> String.split("\n")
     |> Enum.map(fn dir_step_str ->
       dir_step_list = String.split(dir_step_str)

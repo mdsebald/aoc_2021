@@ -127,7 +127,7 @@ defmodule Day05 do
 
   # Common functions
 
-  defp get_lines(input_file \\ "inputs/day05_input.txt") do
+  defp get_lines(input_file \\ "inputs/day05.txt") do
     input_file
     |> File.read!()
     |> String.split("\n", trim: true)

@@ -145,7 +145,7 @@ defmodule Day07 do
 
   # Common functions
 
-  defp get_crab_pos(input_file \\ "inputs/day07_input.txt") do
+  defp get_crab_pos(input_file \\ "inputs/day07.txt") do
     input_file
     |> File.read!()
     |> String.split(",", trim: true)

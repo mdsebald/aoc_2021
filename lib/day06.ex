@@ -152,7 +152,7 @@ defmodule Day06 do
 
   # Common functions
 
-  defp get_fish(input_file \\ "inputs/day06_input.txt") do
+  defp get_fish(input_file \\ "inputs/day06.txt") do
     input_file
     |> File.read!()
     |> String.split(",", trim: true)
