@@ -337,8 +337,8 @@ defmodule Day08 do
 
   # Common functions
 
-  defp get_displays() do
-    File.read!("inputs/day08_input.txt")
+  defp get_displays(input_file \\ "inputs/day08_input.txt") do
+    File.read!(input_file)
     |> String.split("\n")
     |> Enum.map(fn patterns ->
       [raw_patterns, raw_display] = String.split(patterns, "|")
